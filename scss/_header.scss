@@ -1,0 +1,67 @@
+.logo {
+  text-transform: uppercase;
+  color: $accent;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  display: flex;
+  align-items: center;
+
+  &-image {
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/logo.svg);
+    margin-right: 19px;
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 3px 0;
+
+  & > li {
+    margin: 0 15px;
+
+    & > a {
+      text-decoration: none;
+      color: $txt-primary;
+    }
+  }
+}
+
+.header {
+  background-color: $white;
+
+  &-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 0;
+  }
+
+  &-info {
+    & span {
+      font-size: 16px;
+    }
+  }
+
+  &-bottom {
+    padding: 10px 0;
+    text-transform: capitalize;
+    font-size: 16px;
+
+    & li {
+      margin: 0 20px;
+    }
+  }
+}
+
+hr {
+  margin: 0;
+  border: none;
+  background-color: $header-bgc;
+  height: 1px;
+}

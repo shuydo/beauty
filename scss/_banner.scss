@@ -1,0 +1,39 @@
+.banner {
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 159px;
+  padding-bottom: 205px;
+  color: $white;
+
+  & p {
+    margin-bottom: 57px;
+    max-width: 315px;
+    line-height: 1.35;
+  }
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 41px;
+}
+
+.btn {
+  color:$white;
+  text-decoration: none;
+
+  border-radius: 20px;
+  border: 2px solid $white;
+  background-color: transparent;
+  padding: 10px 47px;
+
+  transition: 0.2s ease;
+
+  &:hover {
+    color: $txt-primary;
+    background-color: $white;
+  }
+}
+

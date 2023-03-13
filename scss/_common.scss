@@ -1,0 +1,46 @@
+$white: #fff;
+$header-bgc: #efefef;
+$txt-primary: #333;
+$accent: #66c05d;
+$grey: #828282;
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: $txt-primary;
+  background-color: $header-bgc;
+}
+
+.bg-white {
+  background-color: $white;
+}
+
+.bg-green {
+  color: $white;
+  background-color: $accent;
+  padding: 35px 41px;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+button {
+  font-size: 14px;
+  border-radius: 20px;
+  border: 2px solid $accent;
+  background-color: transparent;
+  padding: 10px 24px;
+  margin-left: 37px;
+  transition: 0.2s ease;
+  cursor: pointer;
+
+  &:hover {
+    color: $white;
+    background-color: $accent;
+  }
+}
